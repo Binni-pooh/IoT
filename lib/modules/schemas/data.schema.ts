@@ -11,4 +11,4 @@ export const DataSchema = new Schema({
 });
 
 
-export default model<IData>('param', DataSchema);
+export default model<IData>('param', DataSchema, 'params');
